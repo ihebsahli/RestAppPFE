@@ -1,0 +1,35 @@
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .memory-card {
+    width: calc(33.33% - 20px);
+    height: 100px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .memory-card.flipped {
+    background-color: #8bc34a;
+  }
+  
+  .memory-card.found {
+    background-color: #8bc34a;
+  }
+
+ 

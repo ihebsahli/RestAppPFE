@@ -1,0 +1,6 @@
+.table-wrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* Définit 9 colonnes de même taille */
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); /* Définit les lignes avec une hauteur minimale de 100px et une hauteur maximale de 1fr */
+    overflow: scroll; /* Ajoute une barre de défilement si le contenu dépasse la taille de la grille */
+  }

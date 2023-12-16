@@ -1,0 +1,82 @@
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+
+  }
+  
+  .game-board {
+    margin-right: 20px;
+    margin-left: 42%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    
+  }
+  @media (max-width: 76px) {
+    .game-board {
+      margin-left: 30%;
+    }
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  .square {
+    background-color: ghostwhite;
+    border: 1px solid #999;
+    float: left;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 84px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .square:hover {
+    background: #ddd;
+    cursor: pointer;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .letsgo{
+    color: navy;
+    margin-top:2% ;
+  }
+
+  .letsgo2{
+    color: red;
+  }
+
+  .tic{
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .bt{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
